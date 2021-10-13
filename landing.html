@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bestphones</title>
+	<style type="text/css">
+		body
+		{
+			background-image: url(https://media.shellypalmer.com/wp-content/images/2020/10/iphone12.jpg); 
+			background-repeat: no-repeat;
+			background-size: 100%;
+			margin: 0px;
+		}
+
+		#header
+		{
+			background: black;
+			font-family: Arial;
+			height: 47px;
+			width: 100%;
+		}
+
+		ul
+		{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			background: #000;
+			width: 100%;
+		}
+
+		li
+		{
+			float: left;
+			border-right: 1px solid black;
+		}
+
+		li: last-child
+		{
+			border-right: none;
+		}
+
+		li a
+		{
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover:not(.active)
+		{
+			background: #808080;
+		}
+
+		td a
+		{
+			display: block;
+			text-decoration: none;
+		}
+
+		td a:hover:not(.active)
+		{
+			background: #808080;
+			color: black;
+		}
+
+		.active 
+		{
+			background: #0099ff;
+			text-decoration: none;
+		}
+
+		#container
+		{
+			text-align: center;
+			font-size: 70px;
+			padding-top: 120px;
+		}
+
+		.innertext
+		{
+			padding-left: 600px;
+		}
+
+		.option
+		{
+			font-size: 30px;
+			width: 40px;
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<div id="header">
+			<ul style="display: inline;">
+				<li><a class="active" href="landing.html"> Home</a></li>
+				<li><a href="#news"> About</a></li>
+				<li><a href="#contact"> News</a></li>
+				<li><a href="#about"> Contact</a></li>
+			</ul>		
+		</div>
+		</table>
+		<div id="container">
+			<p style="font-size: 75px;">
+				Your one stop phone services.
+			</p>
+				<div class="innertext">
+					<table>
+						<tr>
+							<td class="option"><a href=""> Buy</a></td>
+						</tr>
+						<tr>
+							<td class="option"><a href=""> Sell</a></td>
+						</tr>
+						<tr>
+							<td class="option"><a href=""> Swap</a></td>
+						</tr>
+					</table>
+				</div>
+		</div>
+	</div>
+</body>
+</html>
